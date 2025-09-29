@@ -4,6 +4,7 @@ import 'package:flutter_application_1/pages/dados_user_page.dart';
 import 'package:flutter_application_1/pages/home_page.dart';
 import 'package:flutter_application_1/pages/location_page.dart';
 import 'package:flutter_application_1/pages/profile_page.dart';
+import 'package:flutter_application_1/pages/mapa_page.dart';
 
 class AppRoutes {
   static Map<String, WidgetBuilder> routes = {
@@ -12,5 +13,6 @@ class AppRoutes {
     "/DadosUsuario": (context) => DadosUserPage(),
     "/viaCepApi": (context) => CepApiPage(),
     "/locationPage": (context) => LocationPage(),
+    "/mapaPage": (context) => MapPage(),
   };
 }
