@@ -1,4 +1,4 @@
-# 🌍 Aplicações em Flutter (Atividades propostas pelo professor Diego)
+# 🌍 Aplicações em Flutter (Atividades propostas pelo professor Diego)-TII10
 
 <div align="center">
   <img src="https://img.shields.io/badge/Status-Em%20Desenvolvimento-blue?style=for-the-badge" />
@@ -11,7 +11,7 @@
 Este é um projeto desenvolvido como parte das atividades do **SENAC**, proposto pelo professor **Diego**.  
 Estamos trabalhando nele desde o início da **UC (Unidade Curricular)**, com o objetivo de aprender e aplicar conceitos de **desenvolvimento mobile com Flutter**.
 
-A ideia principal é criar um **mapa interativo**, onde o usuário pode visualizar diferentes localizações no mapa, clicando em ícones que exibem informações sobre cada lugar.
+Esse é um projeto que estamos usando para **treinar aplicações e aprender sobre o Flutter**.
 
 ---
 
@@ -46,6 +46,10 @@ A ideia principal é criar um **mapa interativo**, onde o usuário pode visualiz
 ✔️ Mostrar diferentes locais com ícones personalizados  
 ✔️ Ao clicar em um ícone, abrir modal centralizado com informações do local  
 ✔️ Estrutura organizada e reutilizável para novos pontos no mapa  
+✔️ **Página de Perfil**: permite que o usuário veja e edite suas informações pessoais, incluindo foto de perfil, cor da borda, login, senha e bio. Também inclui navegação para configurações e home.  
+✔️ **Página de Localização**: permite que o usuário obtenha sua localização atual, mostrando latitude e longitude em tempo real.  
+✔️ **Página de CEP/API**: permite que o usuário busque informações detalhadas de um endereço a partir do CEP, exibindo logradouro, bairro, cidade, estado e região. Inclui validação do CEP e feedback visual em caso de erro.
+ 
 
 ---
 
@@ -62,5 +66,5 @@ Desenvolvida como parte do aprendizado contínuo em **programação mobile**.
 
 <div align="center">
 
-💙 Feito com dedicação durante as aulas do **SENAC**  
+Feito com dedicação durante as aulas do **SENAC**  
 </div>
