@@ -12,7 +12,7 @@ class AppRoutes {
     "/perfil": (context) => ProfilePage(),
     "/DadosUsuario": (context) => DadosUserPage(),
     "/viaCepApi": (context) => CepApiPage(),
-    "/locationPage": (context) => LocationPage(),
+
     "/mapaPage": (context) => MapPage(),
   };
 }
