@@ -43,9 +43,9 @@ class _MapPageState extends State<MapPage> {
   ];
 
   final List<Color> cores = [
-    Colors.red,
-    Colors.yellow,
+    Colors.black,
     Colors.blue,
+    Colors.white,
     Colors.green,
     Colors.orange,
   ];
@@ -62,7 +62,7 @@ class _MapPageState extends State<MapPage> {
         children: [
           TileLayer(
             urlTemplate:
-                'https://api.maptiler.com/maps/basic/{z}/{x}/{y}.png?key=DVlnMZzGhLBeh6qgbJWR',
+                'https://api.maptiler.com/maps/basic/{z}/{x}/{y}.png?key=XnDpKFNCzaKP1oNvy97g',
           ),
           MarkerLayer(
             markers: [
