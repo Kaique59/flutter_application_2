@@ -44,10 +44,10 @@ class _MapPageState extends State<MapPage> {
 
   final List<Color> cores = [
     Colors.black,
-    Colors.blue,
+    Colors.grey,
     Colors.white,
     Colors.green,
-    Colors.orange,
+    Colors.blue,
   ];
 
   @override
@@ -71,7 +71,47 @@ class _MapPageState extends State<MapPage> {
                   point: lugares[i].coordenadas,
                   width: 80,
                   height: 80,
-                  child: Icon(Icons.location_on, color: cores[i], size: 40),
+                  child: GestureDetector(
+                    onTap: () {
+                      showDialog(
+                        context: context,
+                        builder: (context) {
+                          return AlertDialog(
+                            shape: RoundedRectangleBorder(
+                              borderRadius: BorderRadius.circular(16),
+                            ),
+                            content: Column(
+                              mainAxisSize: MainAxisSize.min,
+                              children: [
+                                Icon(
+                                  Icons.location_on,
+                                  color: cores[i],
+                                  size: 40,
+                                ),
+                                const SizedBox(height: 12),
+                                Text(
+                                  lugares[i].nome,
+                                  style: const TextStyle(
+                                    fontSize: 18,
+                                    fontWeight: FontWeight.bold,
+                                  ),
+                                  textAlign: TextAlign.center,
+                                ),
+                              ],
+                            ),
+                            actions: [
+                              TextButton(
+                                onPressed: () => Navigator.of(context).pop(),
+                                child: const Text("Fechar"),
+                              ),
+                            ],
+                          );
+                        },
+                      );
+                    },
+
+                    child: Icon(Icons.location_on, color: cores[i], size: 40),
+                  ),
                 ),
             ],
           ),
