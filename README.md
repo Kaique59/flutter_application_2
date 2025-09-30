@@ -9,7 +9,7 @@
 
 ## 📘 Sobre o Projeto
 Este é um projeto desenvolvido como parte das atividades do **SENAC**, proposto pelo professor **Diego**.  
-Estamos trabalhando nele desde o início da **UC (Unidade Curricular)**, com o objetivo de aprender e aplicar conceitos de **desenvolvimento mobile com Flutter**.
+Estamos trabalhando nele desde o início das **UCS (Unidade Curricular)**, com o objetivo de aprender e aplicar conceitos de **desenvolvimento mobile com Flutter**.
 
 Esse é um projeto que estamos usando para **treinar aplicações e aprender sobre o Flutter**.
 
