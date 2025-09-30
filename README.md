@@ -1,4 +1,4 @@
-# 🌍 Aplicações em Flutter (Atividades propostas pelo professor Diego)-TII10
+# 📱 Aplicações em Flutter (Atividades propostas pelo professor Diego)-TII10
 
 <div align="center">
   <img src="https://img.shields.io/badge/Status-Em%20Desenvolvimento-blue?style=for-the-badge" />
